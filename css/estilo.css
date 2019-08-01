@@ -1,0 +1,28 @@
+body{
+	margin : 0% 10% 0% 10%;
+}
+.menu{
+	padding: 20px 0;	
+}
+.menu ul{
+	width: 100%;
+	text-align: center;
+}
+.menu li{
+	display: inline-block; 
+	margin: 0px 70px 0px 70px;
+	color: black;
+}
+.centro{
+	text-align: center;
+}
+.nome {
+	text-align: center;
+	margin: 25px;
+}
+hr{
+	text-align: center;
+}
+
+
+
