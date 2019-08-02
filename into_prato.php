@@ -5,7 +5,7 @@
 	$nome_p = $_POST["nome"];
 	$preco = $_POST["valor"];
 	$descricao = $_POST["descricao"];
-	$idCate = $_POST["setor"];
+	$idCate = $_POST["categoria"];
 	
 	
 	$query="INSERT INTO prato (nome_p, preco,  descricao, idCate) VALUES ('$nome_p', '$preco', '$descricao', '$idCate')";
@@ -29,7 +29,7 @@
 	</head>
 	<body>
 		<form action="cad_prato.php" method="post"/>
-			<p><input type="submit" value="Voltar"/></p>
+			<p><input type="submit" class="btn btn-into" value="Voltar"/></p>
 		</form>
 
 	</body>
