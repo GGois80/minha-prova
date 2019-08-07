@@ -4,6 +4,7 @@
 ?>
 <html>
 	<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
 		<title>Update</title>
 	</head>
 	<body>

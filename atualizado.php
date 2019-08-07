@@ -7,7 +7,9 @@
 	</head>
 	<body>
 		<?php
-	$query = "SELECT * FROM categoria";
+		$nome = POST_$["nome"];
+		
+	$query = "UPDATE categoria SET ";
 	$exe = mysqli_query ($conexao, $query);
 	echo "<table border = '1px'>
 	<tr>
