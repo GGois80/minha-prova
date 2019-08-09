@@ -23,7 +23,7 @@
 	";
 	while ($set=mysqli_fetch_array($exe)){
 		echo"<tr>
-				<form action='atualizado.php' method='post'>
+				<form action='catdeletado.php' method='post'>
 				<td> <input type='text' name='nome' value='$set[nome]'/> </td>
 				<td> <input type='submit' value='OK'> </td>
 				<input type='hidden' name='id' value='$set[id_categoria]'/>
